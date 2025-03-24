@@ -14,8 +14,7 @@ if (force === 'true'){
   sequelize.sync({ alter : true });
   console.log("Base de Datos Actualizada")
 }else{
-  console.log("Base sin actualizaciones");
-  
+  console.log("Base sin actualizaciones"); 
 }
 
 sequelize.sync().then(() => {
