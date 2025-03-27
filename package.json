@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "ts-node-dev src/app.ts",
-    "build": "tsc && npx ncp ./src/templates ./dist/templates",
+    "build": "tsc && npx ncp ./src/shared/Template ./dist/shared/Template",
     "start": "node dist/app.js"
   },
   "keywords": [],

@@ -5,8 +5,8 @@ const rabbitSettings = {
   protocol: "amqp",
   hostname: "host.docker.internal",
   port: 5672,
-  username: "vac",
-  password: "vac",
+  username: "guest",
+  password: "guest",
   vhost: "/",
   authMechanism: ["PLAIN", "AMQPLAIN", "EXTERNAL"],
 };

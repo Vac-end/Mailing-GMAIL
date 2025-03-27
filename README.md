@@ -26,8 +26,7 @@ docker-compose up --build
 ```
 Este comando construirá las imágenes y levantará los contenedores correspondientes a:
 - **RabbitMQ** (Mensajería)
-- **API** (Servicio principal)
-- **Consumidor** (Procesamiento de mensajes)
+- **API** (Servicio principal y Consumidor Juntos)
 
 Si deseas ejecutar los contenedores en segundo plano, usa:
 ```sh
@@ -46,6 +45,14 @@ docker-compose logs -f
 Para detener y eliminar los contenedores, ejecuta:
 ```sh
 docker-compose down
+```
+
+## Sin Docker
+En caso de querer correr el proyecto de sin la nececidad de buildear un docker, ejecuta:
+```sh
+npm run build
+
+npm run start
 ```
 
 ## Contacto
